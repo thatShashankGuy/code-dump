@@ -81,5 +81,9 @@ printdll(head,tail)
  
  
  }
+
+ function addAlink(head,node,pos){
+    
+ }
  printcll(_head,_tail)
 
