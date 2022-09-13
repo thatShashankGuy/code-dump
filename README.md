@@ -37,10 +37,6 @@ Improve on Problem solving
 </section>
 <section>
 #Conclusion 
-
 I am hoping to write more C in my free time and to understand programming beyond the abstraction of Mordern Programming ! 
-
-
-
 
 </section>

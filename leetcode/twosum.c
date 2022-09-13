@@ -62,6 +62,8 @@ int* twoSum(int* nums, int numsSize, int target, int *returnSize ){
 int* twoSum(int* nums, int numsSize, int target, int *returnSize ){
 // to be impelemented once Hash table is clear ; 
 }
+
+
 int main(){
     int a[] = {2,7,11,15};
     int rs,target = 9;
