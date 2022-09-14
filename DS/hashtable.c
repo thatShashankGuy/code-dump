@@ -31,3 +31,21 @@ Any Hash Table implementation has the following three components:
 
 
 
+/**
+ * @brief  HOW TO IMPLEMENT HASH TABLE 
+ *   1. Create an array of structure, data (i.e a hash table).
+  *  2. Take a key to be stored in hash table as input.
+  *  3. Corresponding to the key, an index will be generated.
+  *  4. In case of absence of data in that index of array, create one and insert the data item (key and value) into it and increment the size of hash table.
+  *  5. In case the data already exists, the new data cannot be inserted if the already present data does not match given key.
+  *  6. To display all the elements of hash table, data at each index is extracted and elements (key and value) are read and printed.
+  *  7. To remove a key from hash table, we will first calculate its index and extract its data, delete the key in case it matches the given key.
+  *  8. Exit
+ */
+#include <stdio.h>
+#include <stdlib.h>
+
+struct data {
+    int key;
+    int value ; 
+};
