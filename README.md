@@ -1,4 +1,4 @@
-## That-COde-Journal/TCJ 
+## That-Code-Journal/TCJ 
 - Repository of lots of Spaghetti coding i do in my  free time . 
 - Mostly small scripts or problem solving for  pure educational purposes .
 - I don't of patience of big projects and I mostly do all the serious stuff at my Job . 
