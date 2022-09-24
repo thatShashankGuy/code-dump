@@ -42,10 +42,63 @@ Any Hash Table implementation has the following three components:
   *  7. To remove a key from hash table, we will first calculate its index and extract its data, delete the key in case it matches the given key.
   *  8. Exit
  */
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<stdlib.h>
 
-struct data {
-    int key;
-    int value ; 
+
+/**
+ * @brief DEFINE HASH FUNCTION HASH ITEMS AND HASH TABLES 
+ * 
+ */
+#define CAPACITY  300 ;
+typedef struct HT ht_item;
+typedef struct HASHT Hash_table;
+
+/**
+ * @brief ht_item will have two properties key and corresponding values 
+ * 
+ */
+struct ht_item
+{
+    char* key ;
+    char* value;
+
 };
+
+/**
+ * @brief Hashtable have key-value data (ht_item ) and size and count methods 
+ * 
+ */
+
+struct Hash_table{
+    ht_item** ht_item;
+    int size;
+    int count;
+};
+
+
+
+unsigned long Hash_Function(char *str){
+    unsigned long i = 0 ;
+       
+       for(int j = 0 ; str[j]; j++ ){
+            i += str[j];
+       }
+
+       return i % CAPACITY;
+}
+
+
+/**
+ * @brief CREATE HASH TABLE FROM DEFINATIONS 
+ * 
+ * 
+ */
+
+
+
+int main(){
+
+    return 0 ;
+}
+
